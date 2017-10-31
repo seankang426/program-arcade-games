@@ -3,12 +3,9 @@
 This repository is a template for students working on labs and worksheets
 from [ProgramArcadeGames.com](http://ProgramArcadeGames.com)
 
+### who I contact for help?
 
-### How do I get set up? ###
+First, ask a 2nd-year student
+Then, if they can't help, they will direct you to 
 
-* Instructions for how to get set up are available [here](http://programarcadegames.com/index.php?chapter=version_control).
-
-### Who do I talk to? ###
-
-* Paul Vincent Craven
-* paul.craven@simpson.edu
+Mr. Schmidt tschmidt@stcharlessd.org
