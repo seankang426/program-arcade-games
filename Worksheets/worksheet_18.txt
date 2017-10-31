@@ -1,0 +1,61 @@
+     
+     Chapter 18 Worksheet
+
+     
+
+     
+  1. (6 pts) Define the following terms in your own words. Don't just copy/paste
+     from the book:
+     
+     * Exception
+     * Exception Handling
+     * Try block
+     * Catch block
+     * Unhandled exception
+     * Throw
+     
+  2. Show how to modify the following code so that an error is printed if the
+     number conversion is not successful. Modify this code, don't just copy
+     the example from the text. Do NOT ask again if the conversion is
+     unsuccessful.
+     
+     user_input_string = input("Enter a number:")
+     user_value = int(user_input_string)
+     
+  3. What will the following code output? Predict, and then run the code to see
+     if you are correct. Write your prediction here and if you are right. If you
+     aren't, make sure you understand why. (Make sure to write both the prediction,
+     and the actual results. No credit will be given if you just list the results
+     or the prediction. If the program raises an error, list that fact for this and
+     the next problem as well.)
+     
+     x = 5
+     y = 0
+     print("A")
+     try:
+         print("B")
+         a = x / y
+         print("C")
+     except:
+         print("D")
+     print("E")
+     print(a)
+     
+  4. What will the following code output? Predict, and then run the code to see
+     if you are correct. Write your prediction here and if you are right. If you
+     aren't, make sure you understand why.
+     
+     x = 5
+     y = 10
+     print("A")
+     try:
+         print("B")
+         a = x / y
+         print("C")
+     except:
+         print("D")
+     print("E")
+     print(a)
+     
+
+     

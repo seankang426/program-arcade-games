@@ -1,0 +1,56 @@
+     
+     Chapter 19 Worksheet
+
+     
+
+     When answering these questions, remember that recursion is not simple ``repeating''
+     a task over and over. That could be done by a loop. A loop isn't recursion.
+     Recursion is anything that is defined in terms of itself.
+     
+  1. ``To understand recursion, one must first understand recursion.'' Explain
+     the joke. (Make sure to ask if you don't get this or the ones below.)
+  2. Two mirrors face each other. Explain how their reflections demonstrate the
+     property of recursion.
+  3. Explain how Multi-Level Marketing (MLM) uses recursion.
+     If you don't know what MLM is, look it up. Also, pro-life tip: avoid MLM.
+  4. Explain how the ``sweep'' function in the classic minesweeper game could be
+     done with recursion. If you don't know, ask!
+  5. Explain how finding your way out of a maze could be done with recursion.
+  6. Use the Chrome browser and create your own screenshot at:
+     http://juliamap.googlelabs.com
+     Use your mouse and mouse wheel to zoom into an interesting part of the fractal.
+     Copy the URL and paste it here.
+  7. (5 pts) Write a recursive function f(n) that takes in a value n
+     and returns the value for f, given the definition below.
+     (If you are viewing this in a text file, the line below will look like
+     gibberish. Go on-line or look in the book for the correctly formatted equation.)
+
+     $f_{n} = \begin{cases} 6 & \text{if } n = 1, \\ \frac{1}{2}f_{n-1}+4 & \text{if } n > 1. \end{cases}$
+
+     Then write a for loop that prints out the answers for values of n
+     from 1 to 10. It should look like:
+     
+     n= 1 , a= 6
+     n= 2 , a= 7.0
+     n= 3 , a= 7.5
+     n= 4 , a= 7.75
+     n= 5 , a= 7.875
+     n= 6 , a= 7.9375
+     n= 7 , a= 7.96875
+     n= 8 , a= 7.984375
+     n= 9 , a= 7.9921875
+     n= 10 , a= 7.99609375
+     
+
+     The function should not have any print statements inside it, nor a loop. The for
+     loop that is written should be outside the function and call the function to get
+     the results and print them.
+
+  8. (5 pts) Write recursive code that will print out the first 10 terms of the
+     sequence below. (If you are viewing this in a text file, the line below will
+     look like gibberish. Go on-line or look in the book for the correctly formatted
+     equation.)
+
+     $f_{n} = \begin{cases} 1 & \text{if } n = 1, \\ 1 & \text{if } n = 2, \\ f(n-1)+f(n-2) & \text{if } n > 2. \end{cases}$
+
+     

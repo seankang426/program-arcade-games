@@ -1,0 +1,335 @@
+     
+     Chapter 09 Worksheet
+
+     
+     For the code below, write a prediction on what it will output. Then run
+     the code and state if your prediction was accurate or not. If your prediction
+     is incorrect, make sure you understand why.
+
+     If you don't know why the code runs the way it does, watch the video at the
+     end of the assignment for an explanation. If you are looking at the text-only
+     version of this worksheet, go on-line and find the HTML version of this worksheet
+     for the video.
+
+     This section is worth 10 points, a half point per problem rounded up.
+
+     
+  1. Block 1 (Remember, guess AND actual. You'll lose 19 points if you skip
+     guessing the output of the next 19 problems, and completely miss the point
+     of this part.)
+     
+     for i in range(5):
+         print(i + 1)
+     
+  2. Block 2
+     
+     for i in range(5):
+         print(i)
+         i = i + 1
+     
+  3. Block 3
+     
+     x = 0
+     for i in range(5):
+         x += 1
+     print(x)
+     
+  4. Block 4
+     
+     x = 0
+     for i in range(5):
+         for j in range(5):
+             x += 1
+     print(x)
+     
+  5. Block 5
+     
+     for i in range(5):
+         for j in range(5):
+             print(i, j)
+     
+  6. Block 6
+     
+     for i in range(5):
+         for j in range(5):
+             print("*", end="")
+             print()
+     
+  7. Block 7
+     
+     for i in range(5):
+         for j in range(5):
+             print("*", end="")
+         print()
+     
+  8. Block 8
+     
+     for i in range(5):
+         for j in range(5):
+             print("*", end="")
+     print()
+     
+  9. Block 9
+     
+     # This is supposed to sum a list of numbers
+     # What is the mistake here?
+     my_list = [5, 8, 10, 4, 5]
+     i = 0
+     for i in my_list:
+         i = i + my_list[i]
+     print(i)
+     
+ 10. Block 10
+     
+     for i in range(5):
+         x = 0
+         for j in range(5):
+             x += 1
+     print(x)
+     
+ 11. Block 11
+     
+     import random
+     play_again = "y"
+     while play_again == "y":
+         for i in range(5):
+             print(random.randrange(2), end="")
+         print()
+         play_again = input("Play again? ")
+     print("Bye!")
+     
+ 12. Block 12
+     
+     def f1(x):
+         print(x)
+     y = 3
+     f1(y)
+     
+ 13. Block 13
+     
+     def f2(x):
+         x = x + 1
+         print(x)
+     y = 3
+     f2(y)
+     print(y)
+     
+ 14. Block 14
+     
+     def f3(x):
+         x = x + 1
+         print(x)
+     x = 3
+     f3(x)
+     print(x)
+     
+ 15. Block 15
+     
+     def f4(x):
+         z = x + 1
+         print(z)
+     x = 3
+     f4(x)
+     print(z)
+     
+ 16. Block 16
+     
+     def foo(x):
+         x = x + 1
+         print("x=", x)
+
+     x = 10
+     print("x=", x)
+     foo(x)
+     print("x=", x)
+     
+ 17. Block 17
+     
+     def f():
+         print("f start")
+         g()
+         h()
+         print("f end")
+
+     def g():
+         print("g start")
+         h()
+         print("g end")
+
+     def h():
+         print("h")
+
+     f()
+     
+ 18. Block 18
+     
+     def foo():
+         x = 3
+         print("foo has been called")
+
+     x = 10
+     print("x=", x)
+     foo()
+     print("x=", x)
+     
+ 19. Block 19 (This demonstrates a new concept that won't be fully explained until Chapter 12.)
+     
+     def a(x):
+         print("a", x)
+         x = x + 1
+         print("a", x)
+
+     x = 1
+     print("main", x)
+     a(x)
+     print("main", x)
+
+     def b(y):
+         print("b", y[1])
+         y[1] = y[1] + 1
+         print("b", y[1])
+
+     y=[123, 5]
+     print("main", y[1])
+     b(y)
+     print("main", y[1])
+
+     def c(y):
+         print("c", y[1])
+         y = [101, 102]
+         print("c", y[1])
+
+     y = [123, 5]
+     print("main", y[1])
+     c(y)
+     print("main", y[1])
+     
+     
+
+     
+
+     
+
+     This next section involves finding the mistakes in the code. If you can't
+     find the mistake, check out the video at the end for the answer and an explanation
+     on what is wrong.
+
+     This section is worth 7 points.
+     
+ 20. Correct the following code: (Don't let it print out the word ``None'')
+     
+     def sum(a, b, c):
+         print(a + b + c)
+
+     print(sum(10, 11, 12))
+     
+ 21. Correct the following code: (x should increase by one, but it doesn't.)
+     
+     def increase(x):
+         return x + 1
+
+     x = 10
+     print("X is", x, " I will now increase x." )
+     increase(x)
+     print("X is now", x)
+     
+ 22. Correct the following code:
+     
+     def print_hello:
+         print("Hello")
+
+     print_hello()
+     
+ 23. Correct the following code:
+     
+     def count_to_ten():
+         for i in range[10]:
+             print(i)
+
+     count_to_ten()
+     
+ 24. Correct the following code:
+     
+     def sum_list(list):
+         for i in list:
+             sum = i
+             return sum
+
+     list = [45, 2, 10, -5, 100]
+     print(sum_list(list))
+     
+ 25. Correct the following code: (This almost reverses the string. What is wrong?)
+     
+     def reverse(text):
+         result = ""
+         text_length = len(text)
+         for i in range(text_length):
+             result = result + text[i * -1]
+         return result
+
+     text = "Programming is the coolest thing ever."
+     print(reverse(text))
+     
+ 26. Correct the following code:
+     
+     def get_user_choice():
+         while True:
+             command = input("Command: ")
+             if command = f or command = m or command = s or command = d or command = q:
+                 return command
+
+             print("Hey, that's not a command. Here are your options:" )
+             print("f - Full speed ahead")
+             print("m - Moderate speed")
+             print("s - Status")
+             print("d - Drink")
+             print("q - Quit")
+
+     user_command = get_user_choice()
+     print("You entered:", user_command)
+     
+     
+
+     
+
+     (13 pts) For this section, write code that satisfies the following items:
+     
+ 27. Write a function that prints out ``Hello World.''
+
+ 28. Write code that will call the function in the prior problem.
+
+ 29. Write a function that prints out ``Hello Bob'', and will take a parameter to
+     let the caller specify the name. Do not put an input statement inside
+     the function! Use a parameter.
+
+ 30. Write code that will call the function in the prior problem.
+
+ 31. Write a function that will take two numbers as parameters (not as input from
+     the user) and print their product (i.e. multiply them).
+
+ 32. Write code that will call the prior function.
+
+ 33. Write a function that takes in two parameters. The first parameter will be a
+     string named phrase. The second parameter will be a number named
+     count. Print phrase to the screen count times.
+     (e.g., the function takes in "Hello" and 5, then prints "Hello" five times.)
+
+ 34. Write code to call the previous function.
+
+ 35. Write code for a function that takes in a number, and returns the square of
+     that number. (I'm not asking for the square root, but the number squared.)
+     Note, this function should RETURN the answer, not print it out.
+
+ 36. Write code to call the function above and print the output.
+
+ 37. Write a function that takes three numbers as parameters, and returns the
+     centrifugal force. The formula for centrifugal force is: 
+     F=m(v^2/r)
+     F is force, m is mass, r is radius, and v is angular velocity.
+
+ 38. Write code to call the function above and display the result.
+
+ 39. Write a function that takes a list of numbers as a parameter, and prints out
+     each number individually using a for loop.
+     
+     

@@ -1,0 +1,21 @@
+     
+     Chapter 14 Worksheet
+
+     
+
+     
+  1. What is a Python library?
+
+  2. What are some of the reasons why a programmer would want to create his/her
+     own library file?
+
+  3. There are two ways to import library files in Python.
+     Give an example of each.
+
+  4. How do calls to functions and classes differ depending on how the library is
+     imported?
+
+  5. Can library files import other library files?
+
+  6. What is a ``namespace?''
+     

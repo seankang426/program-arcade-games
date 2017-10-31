@@ -1,0 +1,44 @@
+     
+     Chapter 11 Worksheet
+
+     
+     
+  1. This is about the time that many people learning to program run into problems
+     with Windows hiding file extensions. Briefly explain how to make Windows show
+     file extensions. If you don't remember, go back to the ``Before getting started''
+     section.
+
+  2. (5 pts) For the following file extensions:
+
+     
+     * .jpg
+     * .wav
+     * .gif
+     * .png
+     * .ogg
+     * .bmp
+     * .mp3
+     
+     ...match the extension to the category it best fits:
+     
+     * Photos
+     * Graphic art
+     * Uncompressed images
+     * Songs and sound effects
+     * Uncompressed sounds
+     
+  3. Should an image be loaded inside the main program loop, or before it?
+     Should the program blit the image in the main program loop or before it?
+
+  4. How can a person change an image from one format to another? For example, how
+     do you change a .jpg to a .gif? Why does changing the file extension not really
+     work? (Ask if you can't figure it out.)
+
+  5. Explain why an image that was originally saved as a .jpg doesn't work with
+     setting a background color even after it is converted to a .png.
+
+  6. Briefly explain how to play background music in a game, and how to
+     automatically start playing a new song when the current song ends.
+     Check the ``examples'' section, and look under the graphics examples
+     for example code on how to do this.
+     

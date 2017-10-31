@@ -1,0 +1,113 @@
+     
+     Chapter 15 Worksheet
+
+     
+     
+     Answer the following, assuming a program uses the linear search:
+     
+  1. If a list has n elements, in the best case how many elements
+     would the computer need to check before it found the desired element?
+
+  2. If a list has n elements, in the worst case how many elements
+     would the computer need to check before it found the desired element?
+     (Remember, give your answer in terms of n.)
+
+  3. If a list has n elements, how many elements need to be checked to
+     determine that the desired element does not exist in the list?
+
+  4. If a list has n elements, what would the average number of
+     elements be that the computer would need to check before it found the desired
+     element?
+
+  5. (2 pts) Take the example linear search code and put it in a function called
+     linear_search. Take in the list along with the desired element as
+     parameters. Return the position of the element, or -1 if it was not found.
+     Once you've written the function, try it out with the following code to see if
+     it works:
+     
+     # --- Put your definition for linear_search right below:
+
+     # --- Now if the function works, all these tests should pass:
+
+     my_list = [4, 3, 2, 1, 5, 7, 6]
+
+     r = linear_search(my_list, 3)
+     if r == 1:
+         print("Test A passed")
+     else:
+         print("Test A failed")
+
+     r = linear_search(my_list, 2)
+     if r == 2:
+         print("Test B passed")
+     else:
+         print("Test B failed")
+
+     r = linear_search(my_list, 10)
+     if r == -1:
+         print("Test C passed")
+     else:
+         print("Test C failed")
+     
+     
+     
+     Answer the following, assuming a program uses the binary search, and the
+     search list is in order:
+     
+  6. If a list has n elements, in the best case how many
+     elements would the computer need to check before it found the desired element?
+
+  7. If a list has n elements, in the worst case how many
+     elements would the computer need to check before it found the desired element?
+
+  8. If a list has n elements, how many elements need to be checked to
+     determine that the desired element does not exist in the list?
+
+  9. If a list has n elements, what would the
+     average number of elements be that the computer would need to check
+     before it found the desired element?
+
+ 10. (2 pts.) Take the example binary search code and put it in a function
+     named binary_search. Take in the list along with the desired
+     element as parameters. Return the position of the element, or -1 if it
+     was not found. Once you've written the function, try it out with the
+     following code to see if it works:
+     
+     # --- Put your definition for binary_search right below:
+
+     # --- Now if the function works, all these tests should pass:
+
+     my_list = [0, 3, 5, 12, 18, 50, 70, 78]
+
+     r = binary_search(my_list, 3)
+     if r == 1:
+         print("Test A passed")
+     else:
+         print("Test A failed")
+
+     r = binary_search(my_list, 2)
+     if r == 2:
+         print("Test B passed")
+     else:
+         print("Test B failed")
+
+     r = binary_search(my_list, 10)
+     if r == -1:
+         print("Test C passed")
+     else:
+         print("Test C failed")
+     
+
+     
+ 11. (3 pts.) Does the following function correctly detect whether a list contains
+     at least one positive element? (1 pt.) Write code to try it out. Explain why it does work
+     or why it does not work. (1 pt.) Come up with working code. (1 pt.)
+     
+     def detect_positive(list):
+         for element in list:
+             if element > 0:
+                 return True
+             else:
+                 return False
+     
+     
