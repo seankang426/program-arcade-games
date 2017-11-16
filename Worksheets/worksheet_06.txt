@@ -13,6 +13,9 @@
   1. What does this program print out?
      (Remember: TWO answers. Your guess and the actual result. Label both.)
      
+     It will print 0(guess)
+     It prints 0 2 4 6 8
+     
      x = 0
      while x < 10:
          print(x)
@@ -20,19 +23,24 @@
      
   2. What does this program print out?
      
+     It will print 1-64 counted up by *2(guess)
+     It prints 1,2,4,6,8,16,32
      x = 1
      while x < 64:
          print(x)
          x = x * 2
      
   3. Why is the and x >= 0 not needed?
-     
+     Because the x is already 0
      x = 0
      while x < 10 and x >= 0:
          print(x)
          x = x + 2
      
   4. What does this program print out? (0 pts) Explain. (1 pt)
+     
+     It prints 5 4 3 2 1 0
+     It prints this because it prints x while x>=0 and the x = x - 1 means it will count down by 1
      
      x = 5
      while x >= 0:
@@ -44,6 +52,8 @@
   5. Fix the following code so it doesn't repeat forever, and keeps asking
      the user until he or she enters a number greater than zero: (2 pts)
      
+     
+     
      x = float(input("Enter a number greater than zero: "))
 
      while x <= 0:
@@ -51,13 +61,21 @@
      
   6. Fix the following code:
      
+     
+     
      x = 10
 
      while x < 0:
          print(x)
          x - 1
 
-     print("Blast-off")
+     print("Blast-off")    
+     x = 10
+     while x>10:
+        print(x)
+        x-1
+     print('Blast off!')   
+    
      
   7. What is wrong with this code? It runs but it has unnecessary code.
      Find all the unneeded code. Also, answer why it is not needed. (1 pt)
@@ -67,6 +85,8 @@
          print(i)
          i += 1
      
+     
+     in the range of i ut is already 0 and the range increases each time. Adding the i makes no sense
   8. Explain why the values printed for x are so different. (2 pts)
      
      # Sample 1
@@ -86,3 +106,4 @@
      print(x)
      
       
+Because the indentations are on different lines
